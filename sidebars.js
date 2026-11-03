@@ -1,0 +1,128 @@
+// File ini dihasilkan otomatis oleh scripts/generate-docs.mjs.
+// Jalankan: npm run docs:generate
+// @ts-check
+
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
+  kurikulum: [
+    'intro',
+    {
+      type: 'category',
+      label: 'Panduan',
+      collapsed: false,
+      items: [
+        'panduan/cara-pakai',
+        'panduan/rubrik',
+        'panduan/struktur-repo',
+        'panduan/jadwal',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Fase 0 — Fondasi',
+      link: { type: 'doc', id: 'fase-0/index' },
+      collapsed: false,
+      items: [
+        'fase-0/index',
+        'fase-0/lingkungan-python',
+        'fase-0/terminal-dan-shell',
+        'fase-0/git-dasar',
+        'fase-0/membaca-error',
+        'fase-0/debugging-dasar',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Fase 1 — Beginner',
+      link: { type: 'doc', id: 'fase-1/index' },
+      collapsed: false,
+      items: [
+        'fase-1/index',
+        'fase-1/variabel-dan-tipe-data',
+        'fase-1/kontrol-alur',
+        'fase-1/string',
+        'fase-1/struktur-data-dasar',
+        'fase-1/fungsi',
+        'fase-1/error-handling-dasar',
+        'fase-1/file-dan-path',
+        'fase-1/modul-dan-stdlib',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Fase 2 — Intermediate',
+      link: { type: 'doc', id: 'fase-2/index' },
+      collapsed: false,
+      items: [
+        'fase-2/index',
+        'fase-2/struktur-data-lanjutan',
+        'fase-2/comprehension-dan-iterator',
+        'fase-2/fungsi-lanjutan',
+        'fase-2/oop',
+        'fase-2/exception-dan-context-manager',
+        'fase-2/data-file-sqlite',
+        'fase-2/struktur-proyek',
+        'fase-2/testing',
+        'fase-2/kualitas-kode',
+        'fase-2/regex',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Fase 3 — Advanced',
+      link: { type: 'doc', id: 'fase-3/index' },
+      collapsed: false,
+      items: [
+        'fase-3/index',
+        'fase-3/type-system',
+        'fase-3/idiom-pythonic',
+        'fase-3/async',
+        'fase-3/concurrency',
+        'fase-3/performance',
+        'fase-3/packaging-cli',
+        'fase-3/logging-config',
+        'fase-3/database',
+        'fase-3/web-api',
+        'fase-3/ci-cd-container',
+        'fase-3/arsitektur',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Fase 4 — Expert',
+      link: { type: 'doc', id: 'fase-4/index' },
+      collapsed: false,
+      items: [
+        'fase-4/index',
+        'fase-4/cpython-internals',
+        'fase-4/memori-dan-gc',
+        'fase-4/descriptor-metaprogramming',
+        'fase-4/native-extension',
+        'fase-4/gil-dan-paralelisme-modern',
+        'fase-4/performance-engineering',
+        'fase-4/sistem-terdistribusi',
+        'fase-4/arsitektur-skala-besar',
+        'fase-4/keamanan',
+        'fase-4/legacy-dan-maintenance',
+        'fase-4/open-source-dan-riset',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Fase 5 — Spesialisasi',
+      link: { type: 'doc', id: 'fase-5/index' },
+      collapsed: true,
+      items: [
+        'fase-5/index',
+        'fase-5/data-ml-ai',
+        'fase-5/backend-web',
+        'fase-5/automation-devops',
+        'fase-5/data-engineering',
+        'fase-5/desktop-gui',
+        'fase-5/embedded-iot',
+      ],
+    },
+  ],
+};
+
+export default sidebars;

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Belajar Python">
+  <rect width="64" height="64" rx="14" fill="#3776AB"/>
+  <path d="M20 20h24v6H26v6h14v6H26v12h-6V20z" fill="#FFD43B"/>
+  <circle cx="43" cy="44" r="4" fill="#FFFFFF"/>
+</svg>
